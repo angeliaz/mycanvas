@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true  // 浏览器环境
+  },
+  "extends": "@tencent/pcqb",
+  "rules": {
+    "quotes": [1, "single"],
+    "linebreak-style": ["error", "windows"],  // window环境换行
+    "comma-dangle": ["error", "never"],
+    "max-params": ["error", 10]  // 为啥是10个，因为上报api就是9个参数，你报错，TM逗我呢！
+  },
+  "globals": {
+    "chrome": true,  // 插件环境时特殊的全局变量,
+    "require": true,
+    "FeedsBridge": true
+  }
+}

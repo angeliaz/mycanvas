@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  <title>demo</title>
+  <link rel="shortcut icon" href="https://browser.qq.com/static/favicon.ico" />
+  <link rel="stylesheet" href="./css/style.min.css">
+  <style>
+    canvas {
+      width: 1000px;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper" class="wrap">
+    <div class="controls">
+      <!-- <button>显示帧速率</button>
+      <button>显示坐标轴</button> -->
+    </div>
+    <div id="demos">
+      <div>
+        <span>basic:</span>
+        <a href="#" data-id="basic">Basic</a>
+        <a href="#size" data-id="size">Size(宽高问题)</a>
+        <a href="#coordinate" data-id="coordinate">coordinate</a>
+        <a href="#rect" data-id="rect">rect</a>
+        <a href="#path" data-id="path">path</a>
+        <a href="#arc" data-id="arc">arc</a>
+        <a href="#bezier" data-id="bezier">bezier</a>
+        <a href="#beginpath" data-id="beginpath">beginpath</a>
+        <a href="#color" data-id="color">color</a>
+        <a href="#text" data-id="text">text</a>
+        <a href="#image" data-id="image">image</a>
+        <a href="#video" data-id="video">video</a>
+        <a href="#pixel" data-id="pixel">pixel</a>
+      </div>
+      <div>
+        <span>feature: </span>
+        <a href="#event" data-id="event">event</a>
+        <a href="#saveRestore" data-id="saveRestore">save_restore</a>
+        <a href="#composite" data-id="composite">composite</a>
+        <a href="#clip" data-id="clip">clip</a>
+        <a href="#scratch" data-id="scratch">scratch</a>
+        <a href="#light" data-id="light">light</a>
+        <a href="#size" data-id="size">1px</a>
+      </div>
+      <div>
+        <span>demos:</span>
+        <a href="#line" data-id="line">line</a>
+        <a href="#bar" data-id="bar">bar</a>
+        <a href="#pie" data-id="pie">pie</a>
+        <a href="#polygon" data-id="polygon">polygon</a>
+        <a href="#bezier" data-id="bezier">bezier</a>
+        <a href="#loading" data-id="loading">loading</a>
+        <a href="#matrix" data-id="matrix">matrix</a>
+        <a href="#arrow" data-id="arrow">arrow</a>
+        <a href="#basic" data-id="basic">bezier</a>
+      </div>
+    </div>
+    <div id="scratch" class="scratch">
+        <canvas id="mycanvas" width="1000" height="600"></canvas>
+    </div>
+    <canvas id="mycanvas1" width="500" height="300"></canvas>
+    <canvas id="mycanvas2"></canvas>
+  </div>
+
+  <div id="image"></div>
+  <video id="video" src="http://stdl.qq.com/stdl/tq_center/activity/christmas2016/time.mp4" width="500" height="400" controls  muted="muted" poster="../images/video.png"></video>
+  <script src="./js/common.js"></script>
+
+</body>
+</html>
