@@ -2,13 +2,6 @@
 	const canvas = document.getElementById('mycanvas');
 	const ctx = canvas.getContext('2d');
 
-	/* ctx.fillStyle = '#333';
-	ctx.beginPath();
-	// ctx.moveTo(0, 0)
-	ctx.lineTo(100, 100);
-	ctx.lineTo(200, 100);
-	ctx.stroke(); */
-
 	const demos = {};
 	// 1.basic
 	demos.basic = require('./base/basic.js');
